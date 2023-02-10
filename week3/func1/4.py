@@ -8,7 +8,7 @@ def check_prime(x):
     return True
 
 def filter_primes(a):
-    res = []
+    res = []    
     for i in a :
         if check_prime(i)==True:
             res.append(i)
