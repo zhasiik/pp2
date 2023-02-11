@@ -7,7 +7,7 @@ class Bank:
     def withdraw(self, x):
         if self.balance >= x:
             self.balance -= x
-x = Bank("Olzhas", 1000)
+x = Bank("Zhassulan", 1000)
 
 for i in range(10):
     t = int(input())

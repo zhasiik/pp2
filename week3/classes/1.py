@@ -7,4 +7,4 @@ class ex:
         print(self.str.upper())
 x = ex()
 x.getString()
-x.prints()
+x.prints()  
